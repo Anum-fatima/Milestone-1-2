@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>static resume builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>STATIC RESUME BUILDER BY ANUM FATIMA </h1>
+    <form id="resumeform">
+    <fieldset>
+        <legend> PERSONAL INFORMATION </legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"required><br>
+        <br>
+        
+        <label for="email">Email: </label>
+         <input type="text" id="email" name="email"required><br>
+         <br>
+
+         <label for="phone">Phone: </label>
+         <input type="tel" id="phone" name="phone" required>
+
+    </fieldset>
+      <br> <br>
+    
+    <fieldset>
+        <legend>EDUCATION</legend>
+        <Label for="education">Education</Label>
+        <textarea name="education" id="education" rows="4" required> </textarea> <br> 
+    </fieldset>
+    <br> <br>
+
+    <fieldset>
+        <legend>EXPERIENCE</legend>
+        <Label for="experience">Experience</Label>
+        <textarea name="experience" id="experience" rows="4" required> </textarea> <br> 
+    </fieldset>
+    <br> <br>
+
+    <fieldset>
+        <legend>SKILLS</legend>
+        <Label for="skills">Skills</Label>
+        <textarea name="skills" id="skills" rows="4" required> </textarea> <br>
+    </fieldset>
+    <br> 
+
+    <button type="submit">generate resume</button>
+</form>
+<br>
+    <div id="resumeoutput">
+        <!--resumeoutput--->
+    </div>
+
+      
+    
+
+
+</body>
+</html>
